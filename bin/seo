@@ -5,15 +5,7 @@ var Service = require('../')
 
 var service = new Service({
   url: process.argv[2],
-  strategy: process.argv[3]
-})
-service.on('sitemap', (loc) => {
-  console.log(`produced sitemap (${loc})`)
-})
-service.on('jsonlds', (dir) => {
-  console.log(`produced jsonld files at ${dir}`)
-})
-service.on('all', () => {
-  console.log('produced all assets')
+  strategy: process.argv[3],
+  delay: process.argv[4]
 })
 service.start()
