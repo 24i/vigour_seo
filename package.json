@@ -26,7 +26,8 @@
     "Shawn Inder <shawn@vigour.io>"
   ],
   "dependencies": {
-    "vigour-fs-promised": "^2.0.2"
+    "vigour-fs-promised": "^2.0.2",
+    "vigour-util": "^3.2.1"
   },
   "engines": {},
   "devDependencies": {
