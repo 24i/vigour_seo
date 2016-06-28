@@ -26,11 +26,13 @@
     "Shawn Inder <shawn@vigour.io>"
   ],
   "dependencies": {
+    "pino": "^2.7.2",
     "vigour-fs-promised": "^2.0.2",
     "vigour-util": "^3.2.1"
   },
   "engines": {},
   "devDependencies": {
-    "tape": "^4.6.0"
+    "tape": "^4.6.0",
+    "@vigour-io/seo-mtv": "^1.0.0"
   }
 }

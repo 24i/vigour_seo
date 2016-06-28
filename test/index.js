@@ -9,7 +9,7 @@ test('Service', function (t) {
   t.plan(2)
   var service = new Service({
     url: fs.createReadStream(path.join(__dirname, 'data.json')),
-    strategy: 'seo-mtv',
+    strategy: '@vigour-io/seo-mtv',
     dest: __dirname
   })
   service.on('sitemap', (loc) => {
