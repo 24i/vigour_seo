@@ -1,0 +1,31 @@
+{
+  "mtvData": {
+    "CH": {
+      "de": {
+        "shows": {
+          "195": {
+            "id": 195,
+            "title": "SHOW TITLE",
+            "date": "2016-03-15T21:05:00+01:00",
+            "description": "SHOW DESC",
+            "seasons": {
+              "0": {
+                "id": 458,
+                "number": 1,
+                "episodes": {
+                  "0": {
+                    "id": 7053,
+                    "title": "EPISODE TITLE",
+                    "number": 1,
+                    "date": "2012-08-09T10:38:00+02:00",
+                    "description": "EPISODE DESC"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

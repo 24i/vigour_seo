@@ -1,0 +1,35 @@
+{
+  "name": "seo",
+  "version": "1.0.0",
+  "description": "Generates seo assets from app data",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test",
+    "start": "./bin/seo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigour-io/seo.git"
+  },
+  "keywords": [
+    "seo",
+    "sitemap",
+    "jsonld"
+  ],
+  "author": "Vigour.io <dev@vigour.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigour-io/seo/issues"
+  },
+  "homepage": "https://github.com/vigour-io/seo#readme",
+  "contributors": [
+    "Shawn Inder <shawn@vigour.io>"
+  ],
+  "dependencies": {
+    "vigour-fs-promised": "^2.0.2"
+  },
+  "engines": {},
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
