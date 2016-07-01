@@ -6,6 +6,7 @@ var Service = require('../')
 var service = new Service({
   url: process.argv[2],
   strategy: process.argv[3],
-  delay: process.argv[4]
+  appUrl: process.argv[4],
+  delay: process.argv[5]
 })
 service.start()
