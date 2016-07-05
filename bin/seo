@@ -20,5 +20,5 @@ var port = 8000
 var server = express()
 server.use(express.static(dest))
 server.listen(port, () => {
-  log.info('Listening', { port })
+  log.info('Listening on port ' + port)
 })
