@@ -7,6 +7,7 @@ var service = new Service({
   url: process.argv[2],
   strategy: process.argv[3],
   appUrl: process.argv[4],
-  delay: process.argv[5]
+  delay: process.argv[5],
+  dest: process.argv[6]
 })
 service.start()
