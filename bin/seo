@@ -1,13 +1,24 @@
 #!/usr/bin/env node
 'use strict'
 
+var path = require('path')
+var express = require('express')
+var log = require('../lib/logger')
 var Service = require('../')
 
+var dest = process.argv[6]
 var service = new Service({
   url: process.argv[2],
   strategy: process.argv[3],
   appUrl: process.argv[4],
   delay: process.argv[5],
-  dest: process.argv[6]
+  dest
 })
 service.start()
+
+var port = 8000
+var server = express()
+server.use(express.static(dest))
+server.listen(port, () => {
+  log.info('Listening', { port })
+})

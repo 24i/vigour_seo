@@ -27,6 +27,7 @@
     "Shawn Inder <shawn@vigour.io>"
   ],
   "dependencies": {
+    "express": "^4.14.0",
     "pino": "^2.7.2",
     "vigour-fs-promised": "^2.0.2",
     "vigour-util": "^3.2.1"
