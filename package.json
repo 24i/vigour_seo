@@ -1,8 +1,9 @@
 {
-  "name": "seo",
+  "name": "vigour-seo",
   "version": "1.0.0",
   "description": "Generates seo assets from app data",
   "main": "lib/index.js",
+  "bin": "./bin/seo",
   "scripts": {
     "test": "node test",
     "start": "./bin/seo"
